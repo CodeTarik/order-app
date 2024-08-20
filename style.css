@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+
+.head{
+    background-color: #f5f3f1;
+    border-bottom: 2px solid silver;
+}
+
+.head img{
+    height: 5vh;
+    padding: 20px;
+}
