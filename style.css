@@ -6,9 +6,47 @@ body{
 .head{
     background-color: #f5f3f1;
     border-bottom: 2px solid silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .head img{
     height: 5vh;
-    padding: 20px;
+    padding: 10px;
+}
+
+img{
+    height: 10vh;
+}
+
+.head-food{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.headline-img{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.foot{
+    background-color: #f36805;
+    border-top: 2px solid silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot img{
+    height: 5vh;
+    padding: 12px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
