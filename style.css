@@ -32,6 +32,31 @@ body{
     object-fit: cover;
 }
 
+.menu{
+    border: 2px solid silver;
+    padding: 8px;
+    font-family: 'Acme', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 75%;
+    border-radius: 22px;
+}
+
+.menu img{
+    height: 20vh;
+}
+
+.menu a{
+    text-decoration: underline;
+    font-family: 'Acme', sans-serif;
+}
+
+.menu ul{
+    font-weight: bold;
+}
+
+
 .foot{
     background-color: #f36805;
     border-top: 2px solid silver;
@@ -42,7 +67,7 @@ body{
 
 .foot img{
     height: 5vh;
-    padding: 12px;
+    padding: 16px;
 }
 
 footer{
